@@ -1,6 +1,130 @@
-h2 {
-    color: brown;
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
-p{
-    color: blue;
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    /*margin: 0;*/
+    background-color: #1f2937;
+    color: aliceblue;
+    margin: 5px 10px 0 10px;
+}
+.logo {
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.links {
+    display: flex;
+    margin-right: 10px;
+    gap: 15px;
+}
+.introduction {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    color: aliceblue;
+    margin: 0 10px;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+#hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.sign-up {
+    width: fit-content;
+    background-color: #3882f6;
+    color: aliceblue;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.information {
+    /*display: flex;*/
+}
+.random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#square-text {
+    display: flex;
+    justify-content: space-evenly;
+}
+.square-text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.square {
+    width: 5vw;
+    height: 5vw;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-style: solid;
+    /*flex-shrink: 0;*/
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+#quote {
+    display: flex;
+    margin: 40px 20px 10px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.quote {
+
+}
+.author {
+
+}
+.action {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    justify-content: center;
+    margin: 10px;
+}
+
+.sign-up-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height:fit-content;
+    background-color: #3882f6;
+    color: aliceblue;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: aliceblue;
+    margin: 0 10px;
+    padding: 10px;
 }
